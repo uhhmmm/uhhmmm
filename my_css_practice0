@@ -1,0 +1,108 @@
+/* FONT CODE */
+
+.font1 {
+    font-family: "Ink Free", "MV Boli", sans-serif; /* type of font */
+    font-style:italic;
+    font-weight:bold;
+    font-size: 1em; /* !! 1em = 16px */
+    text-decoration:underline wavy blue;
+    color: green;
+    background-color: #111111;
+}
+.font {
+    font-family: 'Rubik Moonrocks', cursive; /* font from google for h1 */
+    color: #00ff00;
+}
+
+/*BORDERS CODE */
+
+.border {
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    border-left-style: dashed;
+    border-left-width: 5px;
+    border-left-color: aqua;
+}
+
+.border1 {
+    padding: 5px; /* distance between the text and the border */ 
+    border-style: solid; /* always the latest value assigned to the same property is applied  */
+    border-style: dashed; 
+    border-style: double; /* etc..*/
+    border-width: 10px 5px 10px 5px; /* !! top -> right -> bottom -> left */
+    border-color: #00ff00;
+    border-radius: 10px;
+}
+
+/*BACKGROUNDS CODE*/
+
+/*.background {
+     background: linear-gradient(grey, black);
+    background-repeat: no-repeat; /* these 4 lines make sure the background will extend to the maximum size available */ /*
+    background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+} */ 
+
+html {
+    background-image: url(./background_sample.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+.background1 {
+    background: linear-gradient(to right, red, orange, yellow);
+}
+
+/*  MARGINS CODE */
+
+.margin {
+    border: 1px solid;
+    width: 300px;
+}
+
+.margin1 {
+    border: 1px solid;
+    width: 250px;
+    padding: 25px;
+    margin: 25px;
+}
+.margin2 { /* same as margin: 25px 75px 25px 75px; */
+    margin-top: 25px;
+    margin-right: 75px;
+    margin-bottom: 25px;
+    margin-left: 75px;
+}
+
+.margin3 { /* margin in percentage of the screen */
+    margin: 10%;
+
+}
+
+.margin4 {
+    border: 1px solid;
+    width: 250px;
+    padding: 25px;
+    margin: 25px;
+    margin-left: auto; /* "margin: auto" makes the paragraph stay in the middle. */
+}
+
+/*SHADOWS CODE */
+
+.shadow {
+    border: 1px solid;
+    width: 200px;
+    padding: 25px;
+    text-shadow: 3px 3px 3px yellow, 0px -3px 5px red; /* horizontal(px), vertical(px), blur(px), color() */
+    box-shadow: 10px 10px 3px #666666;
+}
+
+/* PSEUDO CLASSES CODE */
+
+.pseudo:link {
+    color: #78ffd0;
+    
+}
