@@ -1,0 +1,78 @@
+<!DOCTYPE html> <!-- always use-->
+<html lang="en"> <!-- always use-->
+  <head> <!-- something that's not visible on the page itself-->
+    <meta charset="UTF-8"> <!--always use.the encoding system. -->
+    <meta name="keywords" content="important, key, words"> <!-- tag for adding the keywords (for search engines)-->
+    <meta name="'description" content="short description"> <!-- tag to add a short description to the page-->
+    <link rel="stylesheet" href="./practice.css"> <!-- link to the css! styles-->
+    <title>Testing testing♪</title> <!-- the name of the page as it is shown on a browser tab-->
+    <style>  
+     /*the page style.they say it's better to use a separate css file though */
+    body {
+      text-align: center;
+    }
+    </style>
+      </head>
+  <body> <!-- the actual page-->
+    <header> <!--tag for the top of the page-->
+      <h2 style = "font-size:200%;color:purple">second headline</h2>
+      <aside> <!--tag for some extra info - sidebar, comment section, ads etc.-->
+        <a href="#">Option</a> <a href="#">one more</a> <a href="#">and more</a>
+      </aside>
+    </header>
+    <nav> <!--navigation tag for menus-->
+      <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" alt="html5_help" title="title">
+      <ul style="text-align:left"> <!--unordered list-->
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+      </ul>
+    </nav>
+    <main><!--the main info,only one tag for the whole page. also this is what mobile browsers show in read-only mode-->
+      <button>wow a button!</button> <!--a tag to create a button-->
+      <section> <!--divide the data in sections. the data is part of the whole document-->
+        <h3>First section with a section tag</h3>
+        <ol> <!--ordered list-->
+          <li> first option within the section</li>
+          <li>second option</li>
+          <li>third option</li>
+        </ol>
+        <dl>
+          <dt>Description term</dt>
+            <dd>description details</dd>
+          <dt>Another term</dt>
+            <dd><pre>Tag for preformatted text <!--<pre> allows to paste preformatted text with all the line breaks and spaces-->
+              see here        ?
+            </pre>></dd>
+        </dl>
+      <article> <!--an article,can be used independently on other pages or in docs-->
+        <h2>Some independent information with an article tag </h2>        
+      </article>
+      <article class="piece"> <!-- a class,there can be multiple classes in a document-->
+        this is an article with "piece" class, in css we use it as '.piece'
+      </article>
+      <article id="unique"> <!-- an identificator, only one of the same name is allowed in a document-->
+        this is an article with an id "unique". in css - #unique
+      </article>
+      </section>
+      <p class="piece"><u>Finally ffs !</u></p>
+    <p> <!-- paragraph-->
+      <span><a href="mailto:alprim@grail.com">alprim@grail.com</a>, <!-- hyperlink -->
+      <a href="https://github.com/alprim">github.com/alprim</a> <br>
+      <a href="tel:000000000">Phone number</a></span>
+      <img src="C:/Users/dfili/Desktop/w.e/bulldozer.jpg" alt= "bulldozer map" style="width: 400px;height:200px"> <!--image link then alternative name if the picture can't be found then size -->
+    </p>
+    <p style = "color:fuchsia">
+      This is the text I'm experimenting on. <br> 
+      Learning stuff.
+    </p>
+    <p class = okay>whatever</p> 
+    <p>text</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uYnSj04ToDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- add a youtube video on the page-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d71837.23194222884!2d37.646547690039064!3d55.76000485138884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sru!4v1649519931358!5m2!1sen!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+    <svg width="300" height="200">
+      <rect width="100%" height="100%" fill="green" />
+  </svg>
+  </body>
+</html>
