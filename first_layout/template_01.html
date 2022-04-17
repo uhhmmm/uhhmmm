@@ -1,264 +1,94 @@
-body {
-    color: #ffffff;
-    margin: 0;
-    line-height: 1.6;
-    font-family: 'Roboto', sans-serif;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-} 
-
-/*__CONTAINER__*/
-.container {
-    width: 100%;
-    max-width: 860px;
-    margin: 0 auto;
-}
-
-/*__INTRO__*/
-
-.intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    width: 100%;
-    height: 100vh;
-    background: url("./images/tajem_master_01.jpg") center no-repeat;
-    background-size: cover;
-}
-
-.lines {
-    width: 100%;
-    max-width: 780px;
-    margin: 0 auto;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@500&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     
-    position: absolute;
-    bottom: 0;
-    left: 25%;
-
-    text-align: center;
-}
-
-.first_line {
-    font-family: 'Playfair Display', serif;
-    color: white;
-    font-size: 32;
-    font-weight:200;
-}
-
-.second_line {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 100; 
-}
-
-.second_line::before {
-    content: "";
-    display: block;
-    width: 50px;
-    margin: 20px auto 30px auto;
-    height: 2px;
-    background-color:#25bac7;
-}
-
-.intro_button {
-    display: inline-block;
-    width: 120px;
-    height: 40px;
-    border: 1px solid #25bac7;
-    padding-top: 8px;
-    margin-top: 50px;
-    text-align: center;
+    <title>Template</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="logo">
+                    tajam
+                </div>
     
+                <div class="header_nav">
+                    <a href="#" class="nav_btn">Home</a>
+                    <a href="#" class="nav_btn">About</a>
+                    <a href="#" class="nav_btn">Expertise</a>
+                    <a href="#" class="nav_btn">Teams</a>
+                    <a href="#" class="nav_btn">Works</a>
+                    <a href="#" class="nav_btn">People say</a>
+                    <a href="#" class="nav_btn">Contact</a>                            
+                </div>
+            </div>
+        </div> 
+    </header>
 
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 16px;
+    <div class="intro">   
+        <div class="container">
+            <div class="lines">
+                <h1 class="first_line">We Are Awesome Creative Agency</h1>
+                
+                <h2 class="second_line">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</h2>                    
 
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #25bac7;
-    transition: background .3s linear, color .3s linear;
-}
-
-.intro_button:hover, intro_button:active {
-    background-color: #25bac7;
-    color:#05565e
-}
-
-.bottom_list {
-    margin-top: 125px;
-    margin-bottom: 75px;
-}
-
-.bottom_list a {
-    display: inline-block;
-    border: 1px solid grey;
-    cursor: pointer;
-    height: 12px;
-    width: 12px;
-    background-color: transparent;
-    border-radius: 50%;
-    transition: background .3s ease;
-}
-
-.bottom_list a:hover, a:active {
-    background-color: #25bac7;
-}
+                <a class="intro_button" href="#">learn more</a>
+                 
+                <div class="bottom_list">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>                        
+                </div>
+            </div>  
+        </div>                                                
+     </div> 
 
 
-/*__HEADER__*/
-.header {
-    width: 100%;
+    <div class="story">
+        <div class="container">
+            <div class="story_text">
+                <div class="story_icon">
+                    <img src="./images/tajem_master_03.jpg" alt="">
+                </div>
+                
+                <div class="story_head">
+                    <div class="head1">our story</div>
+                    <div class="story1">
+                         <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."</p>
+                   </div>
 
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-}
+                    <a class="intro_button" href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-.header_inner {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 15px;
-}
+        
 
-.logo {
-    font-size: 30px;
-    color: #25bac7;
-    font-weight: 100;
+        
+    <div class="video">
+            <div class="video_container">
+            <div class="video_image1">
+                <img src="./images/outline.png" alt="">
+                <div class="video_image2">
+                    <img src="./images/play.png" alt="">
+                    <div class="video_text">
+                        watch our story
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
 
-    margin-left: 70px;
-    position: relative;
-}
-
-.logo::before{
-    content:url(./images/icon.png);
-    display: inline-block;
-
-    position: absolute;
-    left: -55px;
-}
-
-
-/*__NAV__*/
-.header_nav {
-    font-size: 13px;
-    color: white;
-    font-weight: 700;
-
-    text-transform: uppercase;
-}
-
-.nav_btn {
-    text-decoration: none;
-    color: white;
-    transition: color .2s linear;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 20px;
-}
-
-.nav_btn:hover, .nav_btn:active {
-    color: #25bac7;
-    background-color: transparent;
-}
-
-/*NEXT BLOCK*/
-
-.story {
-    width: 100%;
-    max-width: 1600px;
-    height: 400px;
-    color: black;
-    background-color: #fff;
-}
-
-.story_text {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
-}
-
-.story_icon {
-    width: 255px;
-    height: 233px;
-    margin-top: 8px;
-}
-
-.story_head {
-    width: 100%;
-    max-width: 540px;
-}
-
-.head1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 22px;
-    text-transform: uppercase;
-}
-
-.story1 {
-    font-size: 14px;
-    color: grey;
-}
-
-/*VIDEO BLOCK*/
-
-.video {
-    margin: 0;
-    width: 100%;
-    height: 550px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    background: url(./images/tajem_vid_02.jpg)  no-repeat;
-}
-
-.video_container {
-    width: 100%;
-    height: 550px;
-    background: #4d3e73;
-    opacity: 0.85;
-}
-
-.video_image1 {
-    width: 45px;
-    height: 45px;
-    
-    position: relative; 
-    left: 50%;
-    top: 50%;
-}
-
-.video_image2 {
-    width: 45px;
-    height: 45px;
-
-    position: absolute; 
-    left: 37px;
-    top: 28px;
-}
-
-.video_text {
-    width: 160px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: white;
-
-    position: relative;
-    transform: translate(-57px, 35px);    
-}
