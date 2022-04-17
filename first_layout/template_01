@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@500&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <title>Template</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="logo">
+                    tajam
+                </div>
+    
+                <div class="header_nav">
+                    <a href="#" class="nav_btn">Home</a>
+                    <a href="#" class="nav_btn">About</a>
+                    <a href="#" class="nav_btn">Expertise</a>
+                    <a href="#" class="nav_btn">Teams</a>
+                    <a href="#" class="nav_btn">Works</a>
+                    <a href="#" class="nav_btn">People say</a>
+                    <a href="#" class="nav_btn">Contact</a>                            
+                </div>
+            </div>
+        </div> 
+    </header>
+
+    <div class="intro">   
+        <div class="container">
+            <div class="lines">
+                <h1 class="first_line">We Are Awesome Creative Agency</h1>
+                
+                <h2 class="second_line">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</h2>                    
+
+                <a class="intro_button" href="#">learn more</a>
+                 
+                <div class="bottom_list">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>                        
+                </div>
+            </div>  
+        </div>                                                
+     </div> 
+
+
+    <div class="story">
+        <div class="container">
+            <div class="story_text">
+                <div class="story_icon">
+                    <img src="./images/tajem_master_03.jpg" alt="">
+                </div>
+                
+                <div class="story_head">
+                    <div class="head1">our story</div>
+                    <div class="story1">
+                         <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."</p>
+                   </div>
+
+                    <a class="intro_button" href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+
+        
+    <div class="video">
+            <div class="video_container">
+            <div class="video_image1">
+                <img src="./images/outline.png" alt="">
+                <div class="video_image2">
+                    <img src="./images/play.png" alt="">
+                    <div class="video_text">
+                        watch our story
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
+
