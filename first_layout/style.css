@@ -204,6 +204,11 @@ hr {
     margin-top: 8px;
 }
 
+.story_img {
+    width: 97%;
+    height: auto;
+}
+
 .story_head {
     width: 100%;
     max-width: 540px;
@@ -230,25 +235,8 @@ hr {
     display:flex;
     align-items: center;
     text-align: center;
-    background-image: url(./images/tajem_vid_02.jpg);
-    background-color:rgba(78, 61, 116, 0.8);
-
-    position: relative;
-
-    z-index: 0;
+    background: url(./images/background2.jpg) center/cover no-repeat;
 }
-
-
-.video::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 550px;
-    background-color: rgb(17, 14, 53, 0.8); 
-
-    z-index: -1;
-}
-
 .video_image1 {
     width: 100px;
     height: 100px;
@@ -333,13 +321,20 @@ hr {
 .section_list {
     width: 100%;
     display: flex;
-    flex: 1 1 0;
+    flex-wrap: wrap;
     color: black;
     text-align: center;
 }
 
 .expertise_list{
     position: relative;
+    width: 33.333%;
+    padding-top: 20px;
+}
+
+.expertise_list img {
+    width: 45px;
+    height: 45px;
 }
 
 .expertise_icon {
@@ -353,7 +348,7 @@ hr {
     font-size: 14px;
     text-transform: uppercase;   
     font-weight: bold; 
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 
 .expertise_subtitle {
@@ -367,80 +362,63 @@ hr {
 
 .team {
     width: 100%;
-    height: 715px;
-    display:flex;
+    height: auto;
     align-items: center;
     text-align: center;
-    background-image: url(./images/background_03.jpg);
-    background-color:rgba(78, 61, 116, 0.8);
-
-    position: relative;
-
-    z-index: 0;
-}
-
-.team::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 715px;
-    background-color: rgb(17, 14, 53, 0.8); 
-
-    z-index: -1;
+    background: url(./images/background3.jpg) center/cover no-repeat;
+    padding-bottom: 15px;
 }
 
 .team_list {
-    width: 100%;
     display: flex;
-    flex: 1 1 0; 
-    margin-top: -20px;
+    flex-wrap: wrap;
+    justify-content: center;    
 }
 
-.teams {
-    position: relative;
-    width: 220px;
-    height: 310px;
-    padding: 0 10px;
-}
- .team_pic {
-    display: block;
-    padding: 0;
-    width: 220px;
-    height: 230px;
+.team_inner {
+    width: 23%;
+    height: auto;
+    max-height: 310px;
+    padding: 0 8px;
 }
 
- .team_text {
-     border: solid 1px #757488;
- }
+.team_image img {
+    width: 100%;
+    height: auto;
+    max-height: 230px;
+}
 
- .team_name { 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    color: white;
-    text-transform: uppercase;
+.team_text {
+    border: solid 1px #757488;
+}
 
-    padding-top: 22px;
-    padding-bottom: 10px;
- }
+.team_name { 
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 14px;
+   color: white;
+   padding-top: 12px;
+}
 
- .team_job {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #b0aebd;
+.team_name a {
+    color: #fff;
+}
 
-    padding-bottom: 24px;
- }
+.team_job {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 200;
+   font-size: 13px;
+   text-transform: uppercase;
+   color: #b0aebd;
 
- .teams_bottom {
-    margin-top: 70px;
+   padding-bottom: 12px;
+}
+
+.teams_bottom {
+    margin-top: 40px;
     margin-bottom: 20px;
     color: #b0aebd;
  }
-
-
 
  /*WORKS*/
 
@@ -616,7 +594,7 @@ hr {
 
 .good_news {
     width: 100%;
-    height: 650px;
+    height: auto;
     background-color: #fff;
     color: black;
 }
@@ -830,4 +808,64 @@ hr {
     position: absolute;
     right: 10px;
     bottom: 0px;
+}
+
+
+
+@media (max-width: 990px) { /* ~ tablet landscape */
+    /*Team*/
+    .team_inner {
+        width: 46%;
+        max-width: 220px;
+        padding-bottom: 40px;
+    }
+    .teams_bottom {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 800px) { /* ~ tablet portrait */
+    /*First page*/
+    .nav_btn {
+        margin: 0 3px;
+    }
+
+    /*Second page*/
+    .story_icon {
+        width: 255px;
+        height: 233px;
+    }
+    
+    /*Expertise page*/
+    .expertise_list{
+        width: 45%;
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 575px) { /* ~ cell */
+    /*First_page*/
+    .logo {
+        font-size: 100px;
+    }
+    
+    .header_nav {
+        display: none;
+    }
+
+    .bottom_list {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    /*Second page*/
+    .text_pt2 {
+        display: none;
+    }
+
+    /*Expertise page*/
+    .expertise_list{
+        width: 100%;
+        margin: 0;
+    }
 }
