@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 45px 170px;
+    margin: 30px 170px;
     font-size: 16px;
 }
 
@@ -137,6 +137,7 @@ body {
 
 .second_main_line {
     font-size: 16px;
+    color: #757575;
     font-weight: 400;
 }
 
@@ -211,4 +212,50 @@ body {
     border-color: #fbad27;
     transform: scale(1.3)
  }
+
+/*Places*/
+
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1920px;
+    margin: 150px 0 85px;
+}
+
+.third_page {
+    width: 100%;
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 200px;
+    height: 40px;
+}
+
+.search i {
+    font-size: 36px;
+    margin-right: 5px;
+    color: #e7e7e7;
+}
+
+.search_bar {
+    border: none;
+    font-size: 24px;
+    width: 200px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.search_bar:focus {
+    border: 1px #e7e7e7 solid;
+    outline: none;
+}
 
